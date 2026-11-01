@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+
+# Local operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Runtime output
+*.log
+*.pid

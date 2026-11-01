@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1450" viewBox="0 0 1200 1450" role="img" aria-labelledby="title desc">
+  <title id="title">Conscious Clothing System — store layout concept</title>
+  <desc id="desc">An approximate six by seven metre clothing store plan with entrance, receiving and storage, sorting and packaging, cashier, product display, central browsing fixtures, and an information point.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#e6e4da" stroke-width="1"/></pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#728367"/></marker>
+    <style>
+      .sans{font-family:Arial,Helvetica,sans-serif;fill:#272a23}.muted{fill:#73776b}.small{font-size:14px;letter-spacing:1.4px}.label{font-size:18px;font-weight:700;letter-spacing:.7px}.sub{font-size:15px}.micro{font-size:12px;letter-spacing:.5px}.zone{stroke:#aab09f;stroke-width:2}.fixture{fill:#fffef9;stroke:#969b8c;stroke-width:2}.rack{fill:#f4f2e9;stroke:#a6aa9c;stroke-width:2}.dimension{stroke:#65715c;stroke-width:1.5;fill:none}.wall{stroke:#34382f;stroke-width:12;stroke-linecap:square;fill:none}.flow{stroke:#728367;stroke-width:4;stroke-dasharray:10 9;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="1450" fill="#f8f7f1"/>
+  <text x="90" y="88" class="sans small" fill="#728367">CONSCIOUS CLOTHING SYSTEM · THE MOMENT BEFORE YOU BUY</text>
+  <text x="90" y="143" class="sans" font-size="38" font-weight="700">Store layout concept</text>
+  <text x="90" y="177" class="sans muted" font-size="17">A clear browse-to-discover journey, with back-of-house work kept together.</text>
+  <rect x="82" y="220" width="1036" height="1100" rx="18" fill="#eeede4" stroke="#deddd2"/>
+  <rect x="175" y="300" width="840" height="900" fill="#fffef9" stroke="#34382f" stroke-width="8"/>
+  <rect x="179" y="304" width="832" height="892" fill="url(#grid)" opacity=".48"/>
+
+  <!-- Back-of-house -->
+  <rect x="179" y="304" width="255" height="250" rx="2" fill="#e6eadf" class="zone"/>
+  <text x="202" y="344" class="sans label">RECEIVING + STORAGE</text>
+  <text x="202" y="371" class="sans sub muted">Deliveries · stock · returns</text>
+  <rect x="202" y="399" width="93" height="104" rx="4" class="fixture"/>
+  <path d="M213 423H284M213 449H284M213 475H284" stroke="#b9beaf" stroke-width="2"/>
+  <text x="248" y="527" text-anchor="middle" class="sans micro muted">STOCK SHELVES</text>
+  <rect x="312" y="399" width="98" height="104" rx="4" class="fixture"/>
+  <path d="M325 422H397M325 448H397M325 474H397" stroke="#b9beaf" stroke-width="2"/>
+  <text x="361" y="527" text-anchor="middle" class="sans micro muted">SUPPLIES</text>
+  <rect x="179" y="572" width="255" height="183" rx="2" fill="#f0eee4" class="zone"/>
+  <text x="202" y="610" class="sans label">SORT + PACK</text>
+  <text x="202" y="637" class="sans sub muted">Prepare orders · repair / re-tag</text>
+  <rect x="204" y="660" width="204" height="62" rx="4" class="fixture"/>
+  <text x="306" y="697" text-anchor="middle" class="sans micro muted">PACKING BENCH · SEED-PAPER TAGS</text>
+
+  <!-- Checkout -->
+  <rect x="505" y="304" width="270" height="176" rx="2" fill="#e9ecdf" class="zone"/>
+  <text x="530" y="344" class="sans label">CASHIER</text>
+  <text x="530" y="370" class="sans sub muted">Checkout · questions · returns</text>
+  <path d="M534 410H746V457H534Z" class="fixture"/>
+  <text x="640" y="439" text-anchor="middle" class="sans micro muted">COUNTER + QR HELP</text>
+
+  <!-- Product wall -->
+  <rect x="833" y="710" width="178" height="397" rx="2" fill="#f2f0e7" class="zone"/>
+  <text x="922" y="745" text-anchor="middle" class="sans label">PRODUCT</text>
+  <text x="922" y="769" text-anchor="middle" class="sans label">SECTION</text>
+  <text x="922" y="794" text-anchor="middle" class="sans micro muted">APPAREL RAILS</text>
+  <g class="rack">
+    <rect x="857" y="820" width="130" height="74" rx="5"/><rect x="857" y="910" width="130" height="74" rx="5"/><rect x="857" y="1000" width="130" height="74" rx="5"/>
+  </g>
+  <g stroke="#9aa18f" stroke-width="3"><path d="M875 833v46m25-46v46m25-46v46m25-46v46m25-46v46"/><path d="M875 923v46m25-46v46m25-46v46m25-46v46m25-46v46"/><path d="M875 1013v46m25-46v46m25-46v46m25-46v46m25-46v46"/></g>
+  <text x="922" y="1095" text-anchor="middle" class="sans micro muted">BY TYPE / MATERIAL</text>
+
+  <!-- Central island displays -->
+  <rect x="478" y="570" width="278" height="137" rx="8" class="fixture"/>
+  <text x="617" y="611" text-anchor="middle" class="sans label">FEATURED PIECES</text>
+  <text x="617" y="638" text-anchor="middle" class="sans sub muted">Compare materials · care · impact</text>
+  <path d="M509 668H725" stroke="#d8d8ce" stroke-width="2"/>
+  <text x="617" y="691" text-anchor="middle" class="sans micro" fill="#728367">TAKE A MOMENT · SCAN THE GARMENT QR</text>
+  <rect x="478" y="780" width="278" height="137" rx="8" class="fixture"/>
+  <text x="617" y="821" text-anchor="middle" class="sans label">EVERYDAY RAIL</text>
+  <text x="617" y="848" text-anchor="middle" class="sans sub muted">Easy-to-browse core collection</text>
+  <path d="M509 877H725" stroke="#d8d8ce" stroke-width="2"/>
+  <text x="617" y="901" text-anchor="middle" class="sans micro muted">LOW, CLEAR FIXTURE · ACCESSIBLE FROM BOTH SIDES</text>
+
+  <!-- Information point -->
+  <rect x="478" y="1000" width="278" height="122" rx="8" fill="#e6eadf" stroke="#aab09f" stroke-width="2"/>
+  <text x="617" y="1043" text-anchor="middle" class="sans label">CONSIDERED CHOICE POINT</text>
+  <text x="617" y="1072" text-anchor="middle" class="sans sub muted">How it’s made · care · repair</text>
+  <text x="617" y="1098" text-anchor="middle" class="sans micro" fill="#728367">HMW: INFORM BEFORE BUYING</text>
+
+  <!-- Door, circulation, and access -->
+  <path d="M175 1044V1170M175 1170H301" class="wall"/>
+  <path d="M175 1044A126 126 0 0 1 301 1170" fill="none" stroke="#a4a899" stroke-width="2" stroke-dasharray="7 6"/>
+  <path d="M175 1170L264 1081" stroke="#34382f" stroke-width="8" stroke-linecap="round"/>
+  <text x="198" y="1141" class="sans label">ENTRANCE</text>
+  <path d="M340 1077C372 1008 382 924 421 846S440 652 482 642" class="flow"/>
+  <path d="M756 642C790 645 808 744 836 811" class="flow"/>
+  <path d="M833 930C804 926 785 894 756 856" class="flow"/>
+  <path d="M617 917V986" class="flow"/>
+  <text x="362" y="1023" class="sans micro" fill="#728367" transform="rotate(-60 362 1023)">SUGGESTED BROWSE FLOW</text>
+
+  <!-- Dimensions -->
+  <path d="M175 270V245M1015 270V245M175 256H1015" class="dimension"/><path d="M175 256l12-6v12zM1015 256l-12-6v12z" fill="#65715c"/>
+  <text x="595" y="240" text-anchor="middle" class="sans small">≈ 7.0 m (700 cm)</text>
+  <path d="M1045 300H1070M1045 1200H1070M1058 300V1200" class="dimension"/><path d="M1058 300l-6 12h12zM1058 1200l-6-12h12z" fill="#65715c"/>
+  <text x="1090" y="755" class="sans small" transform="rotate(90 1090 755)">≈ 6.0 m (600 cm)</text>
+
+  <!-- Legend / notes -->
+  <rect x="175" y="1232" width="840" height="60" rx="8" fill="#f8f7f1" stroke="#d9d8cd"/>
+  <path d="M202 1262H248" class="flow"/><text x="263" y="1267" class="sans micro">SUGGESTED SHOPPER ROUTE</text>
+  <rect x="507" y="1247" width="26" height="26" fill="#e6eadf" stroke="#aab09f"/><text x="546" y="1267" class="sans micro">CUSTOMER / STAFF ZONE</text>
+  <rect x="771" y="1247" width="26" height="26" class="fixture"/><text x="810" y="1267" class="sans micro">DISPLAY FIXTURE</text>
+  <text x="175" y="1350" class="sans muted" font-size="14">Concept only: dimensions interpreted as 600 × 700 cm from the sketch. Verify actual site measurements, door swing, exits, and clear aisle widths before construction.</text>
+  <text x="175" y="1378" class="sans muted" font-size="14">The plan keeps receiving and packing together, gives checkout a clear view of the entrance, and places product discovery along the browsing route.</text>
+</svg>
